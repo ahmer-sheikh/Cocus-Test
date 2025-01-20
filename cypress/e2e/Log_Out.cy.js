@@ -6,7 +6,7 @@ describe('LogOut Testing', () => {
         cy.wait(3000)
         cy.get('[data-testid="signin-test"]').click();       //Sign In Button
         cy.wait(3000)
-        cy.get('#username').type('sheikhahmer250@gmail.com');   //Email
+        cy.get('#username').type('ahmersheikh240@gmail.com');   //Email
         cy.wait(3000)
         cy.get('#password').type('Sheikh@02834');               //Password
         cy.wait(3000)
