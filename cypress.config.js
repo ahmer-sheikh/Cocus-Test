@@ -10,11 +10,13 @@ module.exports = defineConfig({
       // Add mochawesome reporter plugin
       require('cypress-mochawesome-reporter/plugin')(on);
 
-      // You can also add other plugins or event listeners here
-      
+      // Other setup configurations for Node events can be added here
     },
+    video: true, // Enable video recording
+    videoUploadOnPasses: true, // Record videos for passed tests
+    videoCompression: 32, // Optional: Set video compression quality (lower = higher quality)
   },
-  
 });
+
 
 
