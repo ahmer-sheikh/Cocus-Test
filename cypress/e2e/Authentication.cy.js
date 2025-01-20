@@ -27,7 +27,7 @@ describe('Authentication Registration', () => {
     cy.wait(2000);                                                  //Wait for autosharing address
     cy.get('#GB\\|RM\\|A\\|10095997\\|ENG').click();                //Address confirming tab      
     cy.wait(2000) 
-    cy.get('#email').type('ahmersheikh240@gmail.com');              //Email
+    cy.get('#email').type('ahmersheikh@gmail.com');              //Email
     cy.wait(2000)
     cy.get('#password').type('Sheikh@02834');                       //Password
     cy.wait(2000)
